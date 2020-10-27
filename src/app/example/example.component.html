@@ -1,1 +1,127 @@
-<p>example works!</p>
+<!-- main app container -->
+<div class="card text-center m-3">
+    <h3 class="card-header">Examples PIPES</h3>
+</div>
+
+<!-- main app container -->
+<div class="card text-center m-3">
+    <h4 class="card-header">Example 1 PIPE</h4>
+    <div class="card-footer col-md-12">
+        <div class="row">
+            <div class="col-md-3">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0101}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-  {{example0101 | example1:Example1Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col-md-9">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0102}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-  {{example0102 | example1:Example1Pipe}} </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-center m-3">
+    <h4 class="card-header">Example 2 PIPE</h4>
+    <div class="card-footer col-md-12">
+        <div class="row">
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0401 | date:'medium'}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0401 | example4:Example4Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0402 | date:'medium'}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0402 | example4:Example4Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0403 | date:'medium'}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0403 | example4:Example4Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  {{example0405 | date:'medium'}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0405 | example4:Example4Pipe}} </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-center m-3">
+    <h4 class="card-header">Example 3 PIPE</h4>
+    <div class="card-footer col-md-12">
+        <div class="row">
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  # {{example0301}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0301 | example3:Example3Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  # {{example0302}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0302 | example3:Example3Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  # 1000</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{1000 | example3:Example3Pipe}} </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card text-center m-3">
+    <h4 class="card-header">Example 4 PIPE</h4>
+    <div class="card-footer col-md-12">
+        <div class="row">
+            <div class="col">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  # {{example0201}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0201 | example2:Example2Pipe}} </dd>
+                </dl>
+            </div>
+            <div class="col-md-9">
+                <dl>
+                    <dt>Original</dt>
+                    <dd>-  # {{example0202}}</dd>
+                    <dt>Resultado</dt>
+                    <dd>-   {{example0202 | example2:Example2Pipe}} </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
