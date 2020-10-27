@@ -1,6 +1,12 @@
-# DEVTallerPipes
+# Desarrollo web Taller Pipes angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+
+# Result
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![pipes](https://user-images.githubusercontent.com/16615764/97371443-31c77300-187f-11eb-8eb5-e6c36ff3cac5.PNG)
+![pipes 1](https://user-images.githubusercontent.com/16615764/97371508-57ed1300-187f-11eb-8b10-e1d4fbfaf1cc.PNG)
+
 
 ## Development server
 
@@ -24,4 +30,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
